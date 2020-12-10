@@ -1,0 +1,33 @@
+@import url("bootstrap/bootstrap.min.css");
+@import url("fontawesome/css/all.min.css");
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+/* IDs */
+
+#home_top {
+  background-image: url("../images/amy-hirschi-JaoVGh5aJ3E-unsplash.jpg");
+  background-color: #cccccc;
+  height: 750px ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#home_top_text {
+  font-size: 60px;
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+}
+
+
+/* Classes */
+
+.partnerhip-font {
+  color: green;
+  font-family: 'Nunito Sans', sans-serif;
+}
